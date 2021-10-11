@@ -1,43 +1,33 @@
 .progress-button {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  width: 20em;
-  height: 5.5em;
+  display: flex;
+  align-items: center;
   background-color: #9e9bc7;
   color: white;
-  place-items: center;
   border-radius: 2em;
   position: relative;
   overflow: hidden;
 }
 
-.progress-button h3 {
-  margin: 0;
-}
-
 .progress-button__text {
-  padding-left: 1.5em;
-  width: 9em;
-  height: 3.1em;
   display: flex;
   align-items: center;
+  margin: 1.25em;
 }
 
 .progress-button__cta {
-  width: 6em;
-  height: 2em;
   background-color: white;
   color: #9e9bc7;
   border-radius: 0.5em;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  z-index: 1;
+  margin: 1.9em;
+  padding: 0.4em;
 }
 
 .progress-button__cta--icon {
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  padding-left: 0.3em;
 }
 
 .progress-button__cta--text {
