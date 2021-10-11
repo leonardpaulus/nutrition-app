@@ -1,8 +1,8 @@
 .progress-link {
   display: flex;
   align-items: center;
-  background-color: #9e9bc7;
-  color: white;
+  background-color: var(--color-tertiary);
+  color: var(--color-contrast);
   border-radius: 2em;
   position: relative;
   overflow: hidden;
@@ -15,8 +15,8 @@
 }
 
 .progress-link__cta {
-  background-color: white;
-  color: #9e9bc7;
+  background-color: var(--color-contrast);
+  color: var(--color-tertiary);
   border-radius: 0.5em;
   display: flex;
   align-items: center;
