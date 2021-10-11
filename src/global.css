@@ -11,6 +11,8 @@
   --color-secondary: #ff8473;
   --color-inactive: #fff8ee;
   --color-contrast: #fff;
+  --color-title: #707070;
+  --color-background: #f6f6f6;
 }
 
 html {

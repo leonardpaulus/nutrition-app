@@ -19,16 +19,16 @@
     height: 3em;
     width: 3em;
     border-radius: 0.5em;
-    background-color: #fff8ee;
+    background-color: var(--color-inactive);
 }
 
 .profile-menu__title {
-    color: #707070;
+    color: var(--color-title);
 }
 
 .profile-menu__line {
     height: 0.1em;
     width: 80vw;
-    background-color: #f6f6f6;
+    background-color: var(--color-background);
     margin: 0;
 }
